@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Jogo da Velha</h1>
+    <table id="board">
+        <tr>
+            <td><button onclick="makeMove(0, 0)"></button></td>
+            <td><button onclick="makeMove(0, 1)"></button></td>
+            <td><button onclick="makeMove(0, 2)"></button></td>
+        </tr>
+        <tr>
+            <td><button onclick="makeMove(1, 0)"></button></td>
+            <td><button onclick="makeMove(1, 1)"></button></td>
+            <td><button onclick="makeMove(1, 2)"></button></td>
+        </tr>
+        <tr>
+            <td><button onclick="makeMove(2, 0)"></button></td>
+            <td><button onclick="makeMove(2, 1)"></button></td>
+            <td><button onclick="makeMove(2, 2)"></button></td>
+        </tr>
+    </table>
+    <button onclick="resetBoard()">Reiniciar</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
